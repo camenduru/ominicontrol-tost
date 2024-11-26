@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "OminiControl: Minimal and Universal Control for Diffusion Transformer",
+      "author": "Zhenxiong Tan, Songhua Liu, Xingyi Yang, Qiaochu Xue, Xinchao Wang",
+      "page": "https://arxiv.org/abs/2411.15098",
+      "code": "https://github.com/Yuanshi9815/OminiControl",
+      "jupyter": "https://github.com/camenduru/ominiControl-tost",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/ominiControl.ipynb",
+      "tags": [
+        "Text to Image"
+      ],
+      "widget": "readme"
+    },
+    "upload": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "input_image"
+    },
+    "input_image": {
+      "type": "string",
+      "description": "Image URL",
+      "widget": "textarea"
+    },
+    "prompt": {
+      "type": "number",
+      "description": "Prompt",
+      "widget": "textarea"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "image2": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "image3": "https://fakeimg.pl/512x512/282828/eae0d0/?text=output#.png",
+      "image4": "https://fakeimg.pl/512x512/282828/eae0d0/?text=output#.png",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
