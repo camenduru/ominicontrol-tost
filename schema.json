@@ -31,12 +31,20 @@
       "description": "Prompt",
       "widget": "textarea"
     },
-    "example": {
+    "example1": {
       "type": "string",
       "image1": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
-      "image2": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/877mv1.webp",
       "image3": "https://fakeimg.pl/512x512/282828/eae0d0/?text=output#.png",
-      "image4": "https://fakeimg.pl/512x512/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/6wunc5.png",
+      "widget": "example"
+    },
+    "example2": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/o5xi83.webp",
+      "image3": "https://fakeimg.pl/512x512/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/4zdlm7.png",
       "widget": "example"
     }
   },
