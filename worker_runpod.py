@@ -42,7 +42,7 @@ def download_file(url, save_dir, file_name):
     return file_path
 
 @torch.inference_mode()
-def generate(input):
+def generate_local(input):
     values = input["input"]
 
     input_image = values['input_image']
@@ -113,4 +113,4 @@ def generate(input):
         if os.path.exists(result):
             os.remove(result)
 
-runpod.serverless.start({"handler": generate})
+runpod.serverless.start({"handler": generate_local})
