@@ -8,7 +8,7 @@ https://tost.ai
 ### 🧬 Code
 https://github.com/Yuanshi9815/OminiControl
 
-### 🌐 Page
+### 📄 Paper
 https://arxiv.org/abs/2411.15098
 
 ### 🖼 Output
