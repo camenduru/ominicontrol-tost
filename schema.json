@@ -8,8 +8,8 @@
       "author": "Zhenxiong Tan, Songhua Liu, Xingyi Yang, Qiaochu Xue, Xinchao Wang",
       "page": "https://arxiv.org/abs/2411.15098",
       "code": "https://github.com/Yuanshi9815/OminiControl",
-      "jupyter": "https://github.com/camenduru/ominiControl-tost",
-      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/ominiControl.ipynb",
+      "jupyter": "https://github.com/camenduru/ominicontrol-tost",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/ominicontrol.ipynb",
       "tags": [
         "Text to Image"
       ],
