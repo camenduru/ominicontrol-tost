@@ -27,7 +27,7 @@
       "widget": "textarea"
     },
     "prompt": {
-      "type": "number",
+      "type": "string",
       "description": "Prompt",
       "widget": "textarea"
     },
